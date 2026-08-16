@@ -12,6 +12,12 @@ Or open any thread, click **Global workflows** in the thread header, and pick on
 Catalog default: `<dataDir>/plugins/global-workflows/workflows/` (`~/.bb/plugins/global-workflows/workflows/`).
 Override with the `catalogDir` setting.
 
+## Screenshots
+
+![global-workflows](docs/screenshot.png)
+
+*The workflow catalog panel inside a thread.*
+
 ## Install from source
 
 ```bash
