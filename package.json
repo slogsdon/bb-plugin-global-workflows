@@ -1,7 +1,12 @@
 {
   "name": "bb-plugin-global-workflows",
   "version": "0.1.0",
+  "description": "Run bb workflows from any project, from a catalog outside the repo.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slogsdon/bb-plugin-global-workflows.git"
+  },
   "scripts": {
     "types": "bb plugin types",
     "typecheck": "tsc --noEmit -p tsconfig.json",
@@ -40,5 +45,8 @@
     "typescript": "^5.7.0",
     "vaul": "^1.1.2",
     "zod": "^4.3.6"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
